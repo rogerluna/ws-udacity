@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#E8F5E9" tools:context=".MainActivity">
+
+    <TextView android:text="@string/nanodegree_title" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:textSize="20dp"
+        android:textColor="#1B5E20"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/spotify_streamer"
+        android:id="@+id/btnSpotify"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:background="#388E3C"
+        android:layout_marginTop="40dp"
+        android:onClick="onClickButton"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/super_duo"
+        android:id="@+id/btnSuperDuo"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/btnSpotify"
+        android:background="#388E3C"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClickButton"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/build_it"
+        android:id="@+id/btnBuildIt"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/btnSuperDuo"
+        android:background="#388E3C"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:onClick="onClickButton"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/xyz_reader"
+        android:id="@+id/btnXYZ"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/btnBuildIt"
+        android:background="#388E3C"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:onClick="onClickButton"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/capstone"
+        android:id="@+id/btnCapstone"
+        android:textColor="#FFFFFF"
+        android:background="#1B5E20"
+        android:layout_below="@+id/btnXYZ"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:onClick="onClickButton"/>
+
+</RelativeLayout>
