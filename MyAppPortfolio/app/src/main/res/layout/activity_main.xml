@@ -24,7 +24,7 @@
         android:layout_centerHorizontal="true"
         android:background="#388E3C"
         android:layout_marginTop="40dp"
-        android:onClick="onClickButton"/>
+        android:onClick="onClickSpotify"/>
 
     <Button
         android:layout_width="300dp"
@@ -36,7 +36,7 @@
         android:layout_below="@+id/btnSpotify"
         android:background="#388E3C"
         android:layout_centerHorizontal="true"
-        android:onClick="onClickButton"/>
+        android:onClick="onClickSuperDuo"/>
 
     <Button
         android:layout_width="300dp"
@@ -48,7 +48,7 @@
         android:background="#388E3C"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        android:onClick="onClickButton"/>
+        android:onClick="onClickBuildIt"/>
 
     <Button
         android:layout_width="300dp"
@@ -60,7 +60,7 @@
         android:background="#388E3C"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        android:onClick="onClickButton"/>
+        android:onClick="onClickXYZReader"/>
 
     <Button
         android:layout_width="300dp"
@@ -72,6 +72,6 @@
         android:layout_below="@+id/btnXYZ"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        android:onClick="onClickButton"/>
+        android:onClick="onClickCapstone"/>
 
 </RelativeLayout>

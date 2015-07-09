@@ -16,31 +16,28 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void onClickButton(View view) {
-        int id = view.getId();
+    public void onClickSpotify(View view) {
+       toastAppName(getString(R.string.spotify_streamer));
+    }
 
-        switch (id) {
-            case R.id.btnSpotify:
-                Toast.makeText(getApplicationContext(), String.format(getString(R.string.app_toast_msg), getString(R.string.spotify_streamer)), Toast.LENGTH_LONG).show();
-                break;
+    public void onClickSuperDuo(View view) {
+        toastAppName(getString(R.string.super_duo));
+    }
 
-            case R.id.btnSuperDuo:
-                Toast.makeText(getApplicationContext(), String.format(getString(R.string.app_toast_msg), getString(R.string.super_duo)), Toast.LENGTH_LONG).show();
-                break;
+    public void onClickBuildIt(View view) {
+        toastAppName(getString(R.string.build_it));
+    }
 
-            case R.id.btnBuildIt:
-                Toast.makeText(getApplicationContext(), String.format(getString(R.string.app_toast_msg), getString(R.string.build_it)), Toast.LENGTH_LONG).show();
-                break;
+    public void onClickXYZReader(View view) {
+        toastAppName(getString(R.string.xyz_reader));
+    }
 
-            case R.id.btnXYZ:
-                Toast.makeText(getApplicationContext(), String.format(getString(R.string.app_toast_msg), getString(R.string.xyz_reader)), Toast.LENGTH_LONG).show();
-                break;
+    public void onClickCapstone(View view) {
+        toastAppName(getString(R.string.capstone));
+    }
 
-            case R.id.btnCapstone:
-                Toast.makeText(getApplicationContext(), String.format(getString(R.string.app_toast_msg), getString(R.string.capstone)), Toast.LENGTH_LONG).show();
-                break;
-
-        }
+    private void toastAppName(String appName) {
+        Toast.makeText(getApplicationContext(), String.format(getString(R.string.app_toast_msg), appName), Toast.LENGTH_LONG).show();
     }
 
     @Override
