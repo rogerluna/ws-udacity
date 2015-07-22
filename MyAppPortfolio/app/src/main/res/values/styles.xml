@@ -1,5 +1,16 @@
 <resources>
 
+    <style name="Green700Button">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/green_700</item>
+    </style>
+
+    <style name="Green900Button" parent="Green700Button">
+        <item name="android:background">@color/green_900</item>
+    </style>
+
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
